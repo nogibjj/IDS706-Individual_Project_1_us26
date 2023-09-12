@@ -9,6 +9,6 @@ format:
 	black_nbconvert *.ipynb
 
 lint:
-	pylint --disable=R,C --ignore-patterns=test_.*?ipynb *.ipynb
+	ruff *.ipynb
 
 all: install lint format test
