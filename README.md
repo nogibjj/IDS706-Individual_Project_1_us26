@@ -1,5 +1,9 @@
 # IDS706-Week_1_Mini-project
 
+[![Install](https://github.com/nogibjj/IDS706-Individual_Project_1_us26/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/IDS706-Individual_Project_1_us26/actions/workflows/install.yml)
+[![Format](https://github.com/nogibjj/IDS706-Individual_Project_1_us26/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/IDS706-Individual_Project_1_us26/actions/workflows/format.yml)
+[![Lint](https://github.com/nogibjj/IDS706-Individual_Project_1_us26/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/IDS706-Individual_Project_1_us26/actions/workflows/lint.yml)
+[![Test](https://github.com/nogibjj/IDS706-Individual_Project_1_us26/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/IDS706-Individual_Project_1_us26/actions/workflows/test.yml)
 
 ### Creating  a Python GitHub template
 
