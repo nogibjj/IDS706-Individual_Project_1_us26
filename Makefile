@@ -6,7 +6,7 @@ test:
 	python -m pytest -vv  test_*.ipynb
 
 format:
-	black *.ipynb
+	black_nbconvert *.ipynb
 
 lint:
 	pylint --disable=R,C --ignore-patterns=test_.*?ipynb *.ipynb
