@@ -19,3 +19,4 @@ polars
 kaleido
 pyarrow
 ipynb
+black_nbconvert
