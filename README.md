@@ -1,18 +1,14 @@
 # IDS706-Week_1_Mini-project
 
-[![Python CI](https://github.com/udyansachdev1/IDS706-Week_1_Mini-project/actions/workflows/main.yml/badge.svg)](https://github.com/udyansachdev1/IDS706-Week_1_Mini-project/actions/workflows/main.yml)
 
 ### Creating  a Python GitHub template
 
 ## Overview
 
-Creating a Python GitHub template that will be used in my future projects.
 
 
 ## Code Description
 
-1. calc.py.py - This python file contains 3 function to multiply, subtract and add.
-2. test_calc.py - This python file contains a test function and asserts the true value.
 
 
 ## CI/CD Automation files
