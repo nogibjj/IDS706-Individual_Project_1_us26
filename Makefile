@@ -9,6 +9,6 @@ format:
 	black_nbconvert *.ipynb
 
 lint:
-	nbqa ruff check  *.ipynb
+	nbqa ruff *.ipynb
 
 all: install lint format test
