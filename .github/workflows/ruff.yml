@@ -2,7 +2,7 @@ name: Lint
 
 on:
   workflow_run:
-    workflows: ["black"]
+    workflows: ["Black Formatter"]
     branches: ["main"]
     types: 
       - completed
