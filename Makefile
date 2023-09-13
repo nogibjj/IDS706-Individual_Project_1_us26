@@ -9,6 +9,6 @@ format:
 	nbqa black *.ipynb
 
 lint:
-	ruff -- --nbval *.ipynb
+	nbqa ruff *.ipynb
 
 all: install lint format test
