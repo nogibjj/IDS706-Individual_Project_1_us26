@@ -3,7 +3,7 @@ install:
 		pip install --prefer-binary -r requirements.txt
 
 test:
-	python -m pytest -vv  test_*.ipynb
+	py.test --nbval *.ipynb
 
 format:
 	black_nbconvert *.ipynb
