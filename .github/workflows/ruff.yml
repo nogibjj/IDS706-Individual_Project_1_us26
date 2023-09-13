@@ -14,8 +14,6 @@ jobs:
       - uses: actions/checkout@v3
       - uses: chartboost/ruff-action@v1
       - run: |
-          pip install ruff
-      - run: |
-          pip install nbqa
+          pip install -r requirements.txt
       - run: |
           make lint
