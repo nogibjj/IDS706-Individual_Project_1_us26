@@ -1,4 +1,4 @@
-# IDS706-Week_1_Mini-project
+# Individual Project - 1
 
 [![Install](https://github.com/nogibjj/IDS706-Individual_Project_1_us26/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/IDS706-Individual_Project_1_us26/actions/workflows/install.yml)
 [![Black Formatter](https://github.com/nogibjj/IDS706-Individual_Project_1_us26/actions/workflows/black.yml/badge.svg)](https://github.com/nogibjj/IDS706-Individual_Project_1_us26/actions/workflows/black.yml)
