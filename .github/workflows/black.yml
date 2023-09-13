@@ -13,6 +13,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: |
-          pip install black_nbconvert
+          pip install black
+      - run: |
+          pip install nbqa
       - run: |
           make format
