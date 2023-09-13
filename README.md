@@ -31,6 +31,7 @@
        1. Python environment
        2. Installs project dependencies
        3. Install packages
-       4. Linitng
-       5. Runs tests
-       6. Format
+       4. Runs tests
+       5. Format
+       6. Linting
+       
