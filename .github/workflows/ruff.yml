@@ -13,4 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: chartboost/ruff-action@v1
-      - run: make format
+      - run: |
+          pip install -r requirements.txt
+      - run: |
+          make lint
