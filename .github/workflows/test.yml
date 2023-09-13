@@ -13,8 +13,8 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - run: |
-          pip install ruff
+          pip install pytest
     - run: |
-          pip install nbqa
+          pip install nbval
     - run: |
         make test
