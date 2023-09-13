@@ -6,7 +6,7 @@ test:
 	py.test --nbval *.ipynb
 
 format:
-	black_nbconvert *.ipynb
+	nbqa black *.ipynb
 
 lint:
 	nbqa ruff *.ipynb
