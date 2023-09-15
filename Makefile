@@ -7,6 +7,7 @@ test:
 
 format:
 	nbqa black *.ipynb
+	black *.py
 
 lint:
 	nbqa ruff *.ipynb
