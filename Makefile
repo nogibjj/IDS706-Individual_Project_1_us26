@@ -11,5 +11,6 @@ format:
 
 lint:
 	nbqa ruff *.ipynb
+	ruff check *.py
 
 all: install lint format test
