@@ -1,7 +1,7 @@
 import polars as pl
 import plotly.express as px
 import os
-
+import pyarrow
 def visualization():
 
   data = pl.read_csv('../World University Rankings 2023.csv')
@@ -11,7 +11,9 @@ def visualization():
 
   joined = result1.join(result2, left_on="Location", right_on="Location")
 
-  fig = px.scatter(joined, x= joined['Industry Income Score'], y=joined["University Rank"], color=joined["Location"],
+  fig = px.scatter(joined, x= joined['Industry Income Score'], 
+                   y=joined["University Rank"],
+                   color=joined["Location"],
                  size=joined['University Rank'])
   fig.update_layout(
     title="Analysing Top Universities",
