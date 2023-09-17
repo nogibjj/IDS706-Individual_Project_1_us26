@@ -1,3 +1,4 @@
+import polars as pl
 from lib import stats_mean, stats_median, stats_mode, stats_std 
 
 # Calculating values for "No of student per staff"
