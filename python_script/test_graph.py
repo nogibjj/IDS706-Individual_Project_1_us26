@@ -1,7 +1,6 @@
 import polars as pl
 import plotly.express as px
 import os
-import pyarrow
 def visualization():
 
   data = pl.read_csv('../World University Rankings 2023.csv')
