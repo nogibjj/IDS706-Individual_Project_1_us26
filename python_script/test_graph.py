@@ -4,7 +4,7 @@ import os
 
 def visualization():
 
-  data = pl.read_csv('../World University Rankings 2023.csv')
+  data = pl.read_csv('World University Rankings 2023.csv')
 
   result1 = data.group_by("Location").agg(pl.col("University Rank").count())
   result2 = data.group_by("Location").agg(pl.col("Industry Income Score").mean())
