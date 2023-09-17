@@ -1,5 +1,6 @@
 import polars as pl
 from lib import stats_mean, stats_median, stats_mode, stats_std 
+import pytest
 
 # Calculating values for "No of student per staff"
 data = pl.read_csv('World University Rankings 2023.csv')
