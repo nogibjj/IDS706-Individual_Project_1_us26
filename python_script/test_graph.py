@@ -1,6 +1,7 @@
 import polars as pl
 import plotly.express as px
 import os
+
 def visualization():
 
   data = pl.read_csv('../World University Rankings 2023.csv')
@@ -14,6 +15,7 @@ def visualization():
                    y=joined["University Rank"],
                    color=joined["Location"],
                  size=joined['University Rank'])
+  
   fig.update_layout(
     title="Analysing Top Universities",
     xaxis_title="Mean of Industry Income Score",
