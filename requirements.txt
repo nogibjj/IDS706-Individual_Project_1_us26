@@ -24,3 +24,4 @@ nbval
 nbqa
 pyarrow
 pytest-playwright
+kaleido
