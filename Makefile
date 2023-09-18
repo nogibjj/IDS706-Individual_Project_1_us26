@@ -11,11 +11,11 @@ test:
 format:
 	nbqa black  \jupyter_notebook/*.ipynb &&\
 		black \python_script/*.py &&\
-			black *.py
+			black \src/*.py
 
 lint:
 	nbqa ruff \jupyter_notebook/*.ipynb &&\
 		ruff check \python_script/*.py &&\
-			ruff check *.py
+			ruff check \src/*.py
 
 all: install test format lint
