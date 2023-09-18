@@ -1,6 +1,6 @@
 def stats_mean(dataset):
     return dataset["No of student per staff"].mean()
-    
+
 
 def stats_median(dataset):
     return dataset["No of student per staff"].median()
@@ -24,8 +24,9 @@ def report(data):
 
     return result
 
+
 def create_summary(data, file_path="Generated summary report.md"):
     with open(file_path, "w", encoding="utf-8") as f:
         for key, value in report(data).items():
             f.write("%s:%s\n" % (key, value))
-            f.write('\n')
+            f.write("\n")

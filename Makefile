@@ -3,9 +3,9 @@ install:
 		pip install --prefer-binary -r requirements.txt
 
 test:	
-	python -m pytest -vv *.py
 	py.test --nbval  \jupyter_notebook/*.ipynb
-	python -m pytest \python_script/test_*.py
+	python -m pytest \python_script/*.py 
+	python -m pytest -vv test_*.py
 			
 
 format:
