@@ -2,9 +2,10 @@ install:
 	pip install --upgrade pip &&\
 		pip install --prefer-binary -r requirements.txt
 
-test:
-	py.test --nbval  \jupyter_notebook/*.ipynb &&\
-		python -m pytest \python_script/test_*.py
+test:	
+	python -m pytest *.py &&\
+		py.test --nbval  \jupyter_notebook/*.ipynb &&\
+			python -m pytest \python_script/test_*.py
 			
 
 format:
