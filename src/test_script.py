@@ -4,8 +4,7 @@ from lib import stats_median
 from lib import stats_mode
 from lib import stats_std
 # Calculating values for "No of student per staff"
-data = pl.read_csv("/workspaces/IDS706-Individual_Project_1_us26" +
-                   "/World University Rankings 2023.csv")
+data = pl.read_csv("../World University Rankings 2023.csv")
 
 
 def check_values(dataset):
