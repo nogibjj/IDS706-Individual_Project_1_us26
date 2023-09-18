@@ -22,6 +22,5 @@ black_nbconvert
 ruff
 nbval
 nbqa
-pyarrow
 pytest-playwright
 kaleido
