@@ -5,7 +5,7 @@ install:
 test:
 	py.test --nbval  \jupyter_notebook/*.ipynb &&\
 		python -m pytest \python_script/test_*.py &&\
-			python -m pytest test_*.py
+			python -m pytest -vv  test_*.py
 
 format:
 	nbqa black  \jupyter_notebook/*.ipynb &&\
