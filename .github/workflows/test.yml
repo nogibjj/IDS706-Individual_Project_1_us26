@@ -16,9 +16,5 @@ jobs:
       run: sudo apt-get install -y build-essential gcc
     - name: install packages
       run: pip install -r requirements.txt
-    - name: install dependencies
-      run: npm install
-    - name: install playwright
-      run: npx playwright install
     - run: |
         make test
