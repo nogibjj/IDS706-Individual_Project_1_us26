@@ -18,6 +18,7 @@ jobs:
       run: pip install -r requirements.txt
     - name: install dependencies
       run: npm install
+    - name: install playwright
       run: npx playwright install
     - run: |
         make test
