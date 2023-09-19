@@ -36,15 +36,27 @@
 		
 4.Makefile with the following:
 
-      - install: using requirements.txt file to install required packages 
+      - install: using requirements.txt file to install required packages
+
+<p align="center">
+  <img width="500" src="" alt="install">
+</p>
       
       - test: Tested by using nbval plugin for pytest
               Tested test_script.py, test_lib.py and the files in jupyter_notebook and python_script
 
       - format: using black formatter and nbqa plugin for .ipynb files
+
+<p align="center">
+  <img width="500" src="" alt="format">
+</p>
+
       
       - lint: using ruff and nbqa plugin for .ipynb files
-	
+
+<p align="center">
+  <img width="500" src="" alt="lint">
+</p>	
 
 		
    Created GitHub Actions that performs all four Makefile commands with badges for each one in the README.md
