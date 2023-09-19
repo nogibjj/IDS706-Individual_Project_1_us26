@@ -45,6 +45,14 @@
       - test: Tested by using nbval plugin for pytest
               Tested test_script.py, test_lib.py and the files in jupyter_notebook and python_script
 
+<p align="center">
+  <img width="600" src="https://github.com/nogibjj/IDS706-Individual_Project_1_us26/blob/main/Image/test1.png" alt="install">
+</p>
+
+<p align="center">
+  <img width="600" src="https://github.com/nogibjj/IDS706-Individual_Project_1_us26/blob/main/Image/test2.png" alt="install">
+</p>
+
       - format: using black formatter and nbqa plugin for .ipynb files
 
 <p align="center">
