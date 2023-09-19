@@ -2,10 +2,9 @@ import polars as pl
 import plotly.express as px
 import os
 
+data = pl.read_csv("Ranking.csv")
 
-def visualization():
-
-    data = pl.read_csv("Ranking.csv")
+def visualization(data):
 
     result1 = data.group_by("Location").agg(pl.col("University Rank").count())
     result2 = data.group_by("Location").agg(pl.col("Industry Income Score").mean())

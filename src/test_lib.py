@@ -4,7 +4,7 @@ from test_script import check_values
 
 from lib import create_summary
 
-data = pl.read_csv("Ranking.csv")
+data = pl.read_csv("../Ranking.csv")
 
 
 def test():
