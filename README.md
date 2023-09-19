@@ -1,4 +1,4 @@
-# Individual Project - 1
+# Continuous Integration using GitHub Actions of Python Data Science Project
 
 [![Install](https://github.com/nogibjj/IDS706-Individual_Project_1_us26/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/IDS706-Individual_Project_1_us26/actions/workflows/install.yml)
 [![Test](https://github.com/nogibjj/IDS706-Individual_Project_1_us26/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/IDS706-Individual_Project_1_us26/actions/workflows/test.yml)
@@ -6,9 +6,8 @@
 [![Ruff](https://github.com/nogibjj/IDS706-Individual_Project_1_us26/actions/workflows/ruff.yml/badge.svg)](https://github.com/nogibjj/IDS706-Individual_Project_1_us26/actions/workflows/ruff.yml)
 
 
-## Overview
+# Overview
 
-#### Continuous Integration using GitHub Actions of Python Data Science Project
 ##### Here is the link to access the video explaining the project and demonstrating its functionality :
    
 
