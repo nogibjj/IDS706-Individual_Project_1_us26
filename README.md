@@ -39,7 +39,7 @@
       - install: using requirements.txt file to install required packages
 
 <p align="center">
-  <img width="500" src="https://github.com/nogibjj/IDS706-Individual_Project_1_us26/blob/main/Image/install.png" alt="install">
+  <img width="600" src="https://github.com/nogibjj/IDS706-Individual_Project_1_us26/blob/main/Image/install.png" alt="install">
 </p>
       
       - test: Tested by using nbval plugin for pytest
@@ -48,14 +48,14 @@
       - format: using black formatter and nbqa plugin for .ipynb files
 
 <p align="center">
-  <img width="500" src="https://github.com/nogibjj/IDS706-Individual_Project_1_us26/blob/main/Image/format.png" alt="format">
+  <img width="600" src="https://github.com/nogibjj/IDS706-Individual_Project_1_us26/blob/main/Image/format.png" alt="format">
 </p>
 
       
       - lint: using ruff and nbqa plugin for .ipynb files
 
 <p align="center">
-  <img width="500" src="https://github.com/nogibjj/IDS706-Individual_Project_1_us26/blob/main/Image/lint.png" alt="lint">
+  <img width="600" src="https://github.com/nogibjj/IDS706-Individual_Project_1_us26/blob/main/Image/lint.png" alt="lint">
 </p>	
 
 		
