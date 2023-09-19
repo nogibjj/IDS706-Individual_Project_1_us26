@@ -1,5 +1,5 @@
 from polar_stats import stats_mean, stats_median
-from polar_stats import stats_mode, stats_std, create_summary
+from polar_stats import stats_mode, stats_std
 import polars as pl
 
 url = "https://github.com/nogibjj/IDS706-Individual_Project_1_us26/blob/main/Ranking.csv?raw=true"
