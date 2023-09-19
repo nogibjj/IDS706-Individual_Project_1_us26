@@ -5,14 +5,48 @@
 [![Black Formatter](https://github.com/nogibjj/IDS706-Individual_Project_1_us26/actions/workflows/black.yml/badge.svg)](https://github.com/nogibjj/IDS706-Individual_Project_1_us26/actions/workflows/black.yml)
 [![Ruff](https://github.com/nogibjj/IDS706-Individual_Project_1_us26/actions/workflows/ruff.yml/badge.svg)](https://github.com/nogibjj/IDS706-Individual_Project_1_us26/actions/workflows/ruff.yml)
 
-### Creating  a Python GitHub template
 
 ## Overview
 
-
+#### Continuous Integration using GitHub Actions of Python Data Science Project
+##### Here is the link to access the video explaining the project and demonstrating its functionality :
+   
 
 ## Code Description
 
+#### The project structure include the following files:
+		
+Jupyter_Notebook folder  that perform descriptive statistics using polars :
+   - main.ipynb which contains all the functions to perform mean, mode, median and standard deviation
+   - test_graph.ipynb which contains a visualization function to plot count of Universities  vs mean of Industry Income Score based on location
+   - test_main.ipynb which test and asserts the true value the function written in main.ipynb and also create a summary report
+
+
+Python_Script performing the same descriptive statistics using Polars:
+   - polar_stats.py which contains all the functions to perform mean, mode, median and standard deviation
+   - test_graph.py which contains a visualization function to plot count of Universities  vs mean of Industry Income Score based on location
+   - test_stats.py which test and asserts the true value the function written in main.ipynb and also create a summary report
+
+
+
+**lib.py** file that shares the common code between the python script and jupyter notebook
+
+					
+		
+Makefile with the following:
+
+      - install: using requirements.txt file to install required packages 
+      
+      - test: Tested by using nbval plugin for pytest
+              Tested test_script.py, test_lib.py and the files in jupyter_notebook and python_script
+
+      - format: using black formatter and nbqa plugin for .ipynb files
+      
+      - lint: using ruff and nbqa plugin for .ipynb files
+	
+
+		
+   Created GitHub Actions that performs all four Makefile commands with badges for each one in the README.md
 
 
 ## CI/CD Automation files
