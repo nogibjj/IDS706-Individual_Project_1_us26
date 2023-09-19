@@ -6,7 +6,7 @@ test:
 	py.test --nbval  \jupyter_notebook/*.ipynb
 	python -m pytest \python_script/*.py 
 	python -m pytest -vv --cov=lib
-	python -m pytest -vv src/*.py
+	python -m pytest -vv \src/*.py
 
 format:
 	nbqa black  \jupyter_notebook/*.ipynb &&\

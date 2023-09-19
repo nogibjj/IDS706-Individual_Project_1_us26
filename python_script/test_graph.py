@@ -2,7 +2,9 @@ import polars as pl
 import plotly.express as px
 import os
 
-data = pl.read_csv("Ranking.csv")
+url = 'https://github.com/nogibjj/IDS706-Individual_Project_1_us26/blob/main/Ranking.csv?raw=true'
+
+dataset = pl.read_csv(url)
 
 def visualization(data):
 
@@ -32,4 +34,4 @@ def visualization(data):
     fig.write_image("../output_graph/visualization.png")
 
 
-visualization()
+visualization(dataset)
