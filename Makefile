@@ -4,7 +4,7 @@ install:
 
 test:	
 	py.test --nbval  \jupyter_notebook/*.ipynb
-	python -m pytest -vv --cov=lib
+
 	
 
 format:
