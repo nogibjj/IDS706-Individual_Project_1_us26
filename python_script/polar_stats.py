@@ -23,14 +23,3 @@ def report(data):
     }
 
     return result
-
-
-def create_summary(data, file_path="Generated summary report.md"):
-    with open(file_path, "w", encoding="utf-8") as f:
-        for key, value in report(data).items():
-            f.write("%s:%s\n" % (key, value))
-            f.write("\n")
-    
-    with open('existing_file.txt', 'a') as file:
-    # Write content to append
-        file.write("\n")

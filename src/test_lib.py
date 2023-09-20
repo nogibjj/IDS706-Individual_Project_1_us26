@@ -7,10 +7,5 @@ url = "https://github.com/nogibjj/IDS706-Individual_Project_1_us26/blob/main/Ran
 
 data = pl.read_csv(url)
 
-
-def test():
-    check_values(data)
-    create_summary(data, file_path="../Generated summary report.md")
-
-
-test()
+create_summary(data, file_path="./Generated summary report.md")
+check_values(data)
