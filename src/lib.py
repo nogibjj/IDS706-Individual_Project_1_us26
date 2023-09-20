@@ -30,10 +30,14 @@ def report(data):
 def create_summary(data, file_path="Generated summary report.md"):
     
     if os.path.exists("../Generated summary report.md"):
+        with open("../Generated summary report.md", "r+") as f:
     # If it exists, delete it
-        os.remove("../Generated summary report.md")
+            old = f.read()
+            os.remove("../Generated summary report.md")
     
-    with open(file_path, "w", encoding="utf-8") as f:
-        for key, value in report(data).items():
-            f.write("%s:%s\n" % (key, value))
-            f.write("\n")
+        with open(file_path, "w", encoding="utf-8") as f:
+            for key, value in report(data).items():
+                f.write("%s:%s\n" % (key, value))
+                f.write("\n")
+                f.write(old[-2:])
+            
