@@ -41,7 +41,7 @@
 <p align="center">
   <img width="600" src="https://github.com/nogibjj/IDS706-Individual_Project_1_us26/blob/main/Image/install.png" alt="install">
 </p>
-      
+
       - test: Tested by using nbval plugin for pytest
               Tested test_script.py, test_lib.py and the files in jupyter_notebook and python_script
 
