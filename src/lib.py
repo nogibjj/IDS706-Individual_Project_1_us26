@@ -1,3 +1,5 @@
+import os
+
 def stats_mean(dataset):
     return dataset["No of student per staff"].mean()
 
@@ -26,8 +28,12 @@ def report(data):
 
 
 def create_summary(data, file_path="Generated summary report.md"):
+    
+    if os.path.exists("../Generated summary report.md"):
+    # If it exists, delete it
+        os.remove("../Generated summary report.md")
+    
     with open(file_path, "w", encoding="utf-8") as f:
         for key, value in report(data).items():
-            f.write("\n![Visualization](https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/markdown/markdown.png)\n")
             f.write("%s:%s\n" % (key, value))
             f.write("\n")
