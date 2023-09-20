@@ -33,5 +33,5 @@ def create_summary(data, file_path="Generated summary report.md"):
                 for key, value in report(data).items():
                     f.write("%s:%s\n" % (key, value))
                     f.write("\n")
-                    f.write(datetime.datetime.now())
+                    f.write(str(datetime.datetime.now()))
                 
