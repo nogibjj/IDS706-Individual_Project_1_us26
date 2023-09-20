@@ -1,4 +1,5 @@
 import os
+import datetime
 
 def stats_mean(dataset):
     return dataset["No of student per staff"].mean()
@@ -28,16 +29,9 @@ def report(data):
 
 
 def create_summary(data, file_path="Generated summary report.md"):
-    
-    if os.path.exists("../Generated summary report.md"):
-        with open("../Generated summary report.md", "r+") as f:
-    # If it exists, delete it
-            old = f.read()
-            os.remove("../Generated summary report.md")
-    
-        with open(file_path, "w", encoding="utf-8") as f:
-            for key, value in report(data).items():
-                f.write("%s:%s\n" % (key, value))
-                f.write("\n")
-                f.write('Test')
-            
+            with open(file_path, "w", encoding="utf-8") as f:
+                for key, value in report(data).items():
+                    f.write("%s:%s\n" % (key, value))
+                    f.write("\n")
+                    f.write(datetime.datetime.now())
+                
