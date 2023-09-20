@@ -21,3 +21,8 @@ jobs:
       run: python src/test_lib.py
     - name: run python script to create output graph
       run : python python_script/test_graph.py
+    - name: Archive and Upload Artifacts
+        uses: actions/upload-artifact@v3
+        with:
+        name: ml_pipeline-artifacts
+        path: ${{ github.workspace }}
