@@ -4,8 +4,8 @@ install:
 
 test:	
 	python -m py.test --nbval jupyter_notebook/*.ipynb 
-	python -m pytest -vv --cov=python_script python_script/*.py
-	python -m pytest -vv --cov=lib
+	python -m py.test -vv --cov=python_script python_script/*.py
+	python -m py.test -vv --cov=lib
 
 format:
 	nbqa black  \jupyter_notebook/*.ipynb &&\

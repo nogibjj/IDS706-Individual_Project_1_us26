@@ -34,5 +34,5 @@ def visualization(data):
     fig.write_image("../output_graph/visualization.png")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     visualization(dataset)
