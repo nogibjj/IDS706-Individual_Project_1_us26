@@ -46,17 +46,18 @@
               Tested test_script.py, test_lib.py and the files in jupyter_notebook and python_script
 
 	            
-              python -m py.test --nbval jupyter_notebook/*.ipynb - 
+python -m py.test --nbval jupyter_notebook/*.ipynb - 
 <p align="center">
   <img width="600" src="https://github.com/nogibjj/IDS706-Individual_Project_1_us26/blob/main/Image/test1.png" alt="install">
 </p>
 
-            python -m pytest -vv --cov=lib
+python -m pytest -vv --cov=lib
 <p align="center">
   <img width="600" src="https://github.com/nogibjj/IDS706-Individual_Project_1_us26/blob/main/Image/test2.png" alt="install">
 </p>
 
-          	python -m pytest -vv --cov=python_script python_script/*.py
+
+python -m pytest -vv --cov=python_script python_script/*.py
 <p align="center">
   <img width="600" src="https://github.com/nogibjj/IDS706-Individual_Project_1_us26/blob/main/Image/test3.png" alt="install">
 </p>
