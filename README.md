@@ -77,7 +77,7 @@ python -m pytest -vv --cov=python_script python_script/*.py
 </p>	
 
 		
-   Created GitHub Actions that performs all four Makefile commands with badges for each one in the README.md
+5.Created GitHub Actions that performs all four Makefile commands with badges for each one in the README.md
 
 ##### Action include the general CI/CD process in test.yml file, which automatically generate the graph and markdown
 
