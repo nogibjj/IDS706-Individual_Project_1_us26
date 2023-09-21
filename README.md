@@ -85,6 +85,13 @@ python -m pytest -vv --cov=python_script python_script/*.py
   <img width="600" src="https://github.com/nogibjj/IDS706-Individual_Project_1_us26/blob/main/Image/yml_actions.png" alt="yml_actions">
 </p>	
 
+### Visualization 
+
+##### Count of top universities vs mean industry income score 
+
+<p align="center">
+  <img width="600" src="https://github.com/nogibjj/IDS706-Individual_Project_1_us26/blob/main/output_graph/visualization.png" alt="visualization">
+</p>	
 
 ## CI/CD Automation files
 
