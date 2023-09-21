@@ -29,9 +29,9 @@ def visualization(data):
     # fig.show()
 
     if not os.path.exists("./output_graph"):
-        os.mkdir(".output_graph")
+        os.mkdir("output_graph")
 
-    fig.write_image(".output_graph/visualization.png")
+    fig.write_image("output_graph/visualization.png")
 
 
 if __name__ == "__main__":
