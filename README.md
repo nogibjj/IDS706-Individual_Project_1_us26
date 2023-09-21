@@ -79,6 +79,12 @@ python -m pytest -vv --cov=python_script python_script/*.py
 		
    Created GitHub Actions that performs all four Makefile commands with badges for each one in the README.md
 
+##### Action include the general CI/CD process in test.yml file, which automatically generate the graph and markdown
+
+<p align="center">
+  <img width="600" src="https://github.com/nogibjj/IDS706-Individual_Project_1_us26/blob/main/Image/yml_actions.png" alt="yml_actions">
+</p>	
+
 
 ## CI/CD Automation files
 
