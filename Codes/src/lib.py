@@ -1,6 +1,10 @@
 from datetime import datetime
 
 
+def column_name(dataset):
+    return dataset.columns[4]
+
+
 def stats_mean(dataset):
     return dataset["No of student per staff"].mean()
 

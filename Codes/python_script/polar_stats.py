@@ -1,17 +1,23 @@
+import sys
+
+sys.path.insert(0, "./Codes/src")
+from lib import column_name  # noqa: E402
+
+
 def stats_mean(dataset):
-    return dataset["No of student per staff"].mean()
+    return dataset[column_name(dataset)].mean()
 
 
 def stats_median(dataset):
-    return dataset["No of student per staff"].median()
+    return dataset[column_name(dataset)].median()
 
 
 def stats_mode(dataset):
-    return dataset["No of student per staff"].mode()
+    return dataset[column_name(dataset)].mode()
 
 
 def stats_std(dataset):
-    return dataset["No of student per staff"].std()
+    return dataset[column_name(dataset)].std()
 
 
 def report(data):
@@ -21,5 +27,4 @@ def report(data):
         "std_dev": (stats_std(data)),
         "mode": ((stats_mode(data)[0])),
     }
-
     return result
