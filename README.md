@@ -9,7 +9,7 @@
 # Overview
 
 ##### Here is the link to access the video explaining the project and demonstrating its functionality :
-https://youtu.be/Mfaxv2vglNs
+https://youtu.be/ZEgIwwAhGJo
 
 ## Code Description
 
